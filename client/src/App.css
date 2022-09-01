@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  height: 350px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top:8rem;
+}
+
+form{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  align-items: center;
+  margin-top:70px;
+}
+
+.link{
+  /* border: 1px solid red; */
+  padding:0;
+  box-sizing: border-box;
+  border-radius:50px;
+  width: 100%;
+  margin: auto;
+  height: 30px;
+
+}
+.link>p{
+  display: inline;
+}
+
+.tt{
+  margin-top:1rem;
+}
+
